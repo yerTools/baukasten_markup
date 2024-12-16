@@ -1,6 +1,6 @@
 ---
 version: 1.2.4
-title: lexer_second_stage/./bkm/basic/simple.bkm
+title: lexer_second_stage/./bkm/01_basic/01_simple.bkm
 ---
 [
   Line[0m(
