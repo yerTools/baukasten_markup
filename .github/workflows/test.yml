@@ -17,6 +17,9 @@ jobs:
           gleam-version: "1.6.3"
           rebar3-version: "3"
           # elixir-version: "1.15.4"
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
       - run: gleam deps download
       - run: gleam test --target erlang
       - run: gleam test --target javascript
