@@ -1,0 +1,23 @@
+This file contains simple functions.  
+Those functions do not require any arguments, so they can be called with: \#FunctionName.  
+Functions require an PascalCase name, so #test and #functionName are not detected as function calls.
+
+After this paragraph the functions #Hello and #BKM are defined.
+A function has to return something and can be called from within the markup with a number sign (#) followed by the function name and optional arguments.
+The function \#Hello will return Hello in <strong></strong> tags.
+The function \#BKM will work in the same way.
+
+#fn Hello
+    `<strong>Hello</strong>`
+#end
+
+#fn BKM
+    `<strong>BKM</strong>`
+#end
+
+A function can be defined with a #fn followed by a function name.
+After this the function body starts the following line.
+The function ends with an #end.
+Those keywords with a number sign (#) prefix have to be at the start of a line without any whitespace.
+
+So: #Hello and welcome to #BKM! :)
