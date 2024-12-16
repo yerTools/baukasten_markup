@@ -1,0 +1,20 @@
+
+
+This is a simple BKM file.
+
+It doesn't have any special syntax or features, but it's still a valid BKM file.
+Here are s\ome e\sc\ape c\haracters (\\).
+
+Like in Markdown, this is in a different paragraph.
+
+  
+
+This is another paragraph.
+Everything is in a paragraph.
+It also has no new lines.
+So everything is on one line.
+
+The last paragraph has line breaks.    
+They can be archived by two or more spaces at the end of a line.  
+Since this is whitespace and whitespace is handled by the language itself, it doesn't have to include the standard library.
+
