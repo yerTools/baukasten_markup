@@ -28,8 +28,20 @@ fn text_from_grapheme(grapheme: Grapheme) -> Text {
   Text(
     graphemes: [grapheme.grapheme],
     is_escaped: grapheme.is_escaped,
-    index: Span(grapheme.position.index, grapheme.position.index),
-    offset: Span(grapheme.position.offset, grapheme.position.offset),
+    index: Span(
+      case grapheme.is_escaped {
+        True -> grapheme.position.index - 1
+        False -> grapheme.position.index
+      },
+      grapheme.position.index,
+    ),
+    offset: Span(
+      case grapheme.is_escaped {
+        True -> grapheme.position.offset - 1
+        False -> grapheme.position.offset
+      },
+      grapheme.position.offset,
+    ),
   )
 }
 

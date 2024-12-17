@@ -142,8 +142,8 @@ title: lexer-second_stage@./bkm/01_basic/02_simple_functions.bkm
       Text(
         ["#"],
         True,
-        Span(114, 114),
-        Span(75, 75),
+        Span(113, 114),
+        Span(74, 75),
       ),
       Text(
         [
@@ -571,8 +571,8 @@ title: lexer-second_stage@./bkm/01_basic/02_simple_functions.bkm
       Text(
         ["#"],
         True,
-        Span(464, 464),
-        Span(14, 14),
+        Span(463, 464),
+        Span(13, 14),
       ),
       Text(
         [
@@ -662,8 +662,8 @@ title: lexer-second_stage@./bkm/01_basic/02_simple_functions.bkm
       Text(
         ["#"],
         True,
-        Span(530, 530),
-        Span(14, 14),
+        Span(529, 530),
+        Span(13, 14),
       ),
       Text(
         [

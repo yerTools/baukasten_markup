@@ -174,8 +174,8 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
       Text(
         ["o"],
         True,
-        Span(122, 122),
-        Span(11, 11),
+        Span(121, 122),
+        Span(10, 11),
       ),
       Text(
         ["m", "e", " ", "e"],
@@ -186,8 +186,8 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
       Text(
         ["s"],
         True,
-        Span(128, 128),
-        Span(17, 17),
+        Span(127, 128),
+        Span(16, 17),
       ),
       Text(
         ["c"],
@@ -198,8 +198,8 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
       Text(
         ["a"],
         True,
-        Span(131, 131),
-        Span(20, 20),
+        Span(130, 131),
+        Span(19, 20),
       ),
       Text(
         ["p", "e", " ", "c"],
@@ -210,8 +210,8 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
       Text(
         ["h"],
         True,
-        Span(137, 137),
-        Span(26, 26),
+        Span(136, 137),
+        Span(25, 26),
       ),
       Text(
         [
@@ -233,8 +233,8 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
       Text(
         ["\"],
         True,
-        Span(149, 149),
-        Span(38, 38),
+        Span(148, 149),
+        Span(37, 38),
       ),
       Text(
         [")", ".", "
