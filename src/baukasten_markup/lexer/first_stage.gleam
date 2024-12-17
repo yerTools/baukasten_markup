@@ -1,6 +1,6 @@
-/// This module is a first stage lexer for the BKM language.
-/// It's not meant to be used directly, but only as a dependency for the
-/// second stage lexer.
+/// This module contains the first stage of the lexer for the BKM language.
+/// It's not meant to be used directly, but only as a dependency
+/// for the second stage lexer.
 /// It splits the input into graphemes, handles escaping and 
 /// normalizes whitespace and new lines. 
 import gleam/list

@@ -1,3 +1,8 @@
+/// This module contains the second stage of the lexer for the BKM language.
+/// It's not meant to be used directly, but only as a dependency
+/// for the third stage lexer.
+/// It splits the input into lines, extracting escape sequences and
+/// checks if the line is empty or contains only whitespace.
 import baukasten_markup/lexer/first_stage.{type Grapheme, Grapheme}
 import gleam/list
 import gleam/option.{None, Some}
