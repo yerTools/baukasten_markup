@@ -16,6 +16,14 @@ pub fn lexer_test() {
   lexer_test_dir("./bkm")
 }
 
+fn pprint_config() -> pprint.Config {
+  pprint.Config(
+    style_mode: pprint.Unstyled,
+    bit_array_mode: pprint.KeepBitArrays,
+    label_mode: pprint.NoLabels,
+  )
+}
+
 fn lexer_test_dir(dir: String) -> Nil {
   let entries = simplifile.read_directory(dir) |> should.be_ok
   list.map(entries, fn(entry) {
@@ -38,10 +46,10 @@ fn lexer_test_file(path: String) -> Nil {
 
   let lexer_first_stage = first_stage.to_graphemes(content)
 
-  pprint.styled(lexer_first_stage)
-  |> birdie.snap("lexer_first_stage/" <> path)
+  pprint.with_config(lexer_first_stage, pprint_config())
+  |> birdie.snap("lexer-first_stage@" <> path)
 
   let lexer_second_stage = second_stage.to_lines(lexer_first_stage)
-  pprint.styled(lexer_second_stage)
-  |> birdie.snap("lexer_second_stage/" <> path)
+  pprint.with_config(lexer_second_stage, pprint_config())
+  |> birdie.snap("lexer-second_stage@" <> path)
 }

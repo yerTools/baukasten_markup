@@ -1,0 +1,2762 @@
+---
+version: 1.2.4
+title: lexer-first_stage@./bkm/01_basic/01_simple.bkm
+---
+[
+  Grapheme(
+    "T",
+    False,
+    Position(2, 3, 0),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(3, 3, 1),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(4, 3, 2),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(5, 3, 3),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(6, 3, 4),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(7, 3, 5),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(8, 3, 6),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(9, 3, 7),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(10, 3, 8),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(11, 3, 9),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(12, 3, 10),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(13, 3, 11),
+  ),
+  Grapheme(
+    "m",
+    False,
+    Position(14, 3, 12),
+  ),
+  Grapheme(
+    "p",
+    False,
+    Position(15, 3, 13),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(16, 3, 14),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(17, 3, 15),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(18, 3, 16),
+  ),
+  Grapheme(
+    "B",
+    False,
+    Position(19, 3, 17),
+  ),
+  Grapheme(
+    "K",
+    False,
+    Position(20, 3, 18),
+  ),
+  Grapheme(
+    "M",
+    False,
+    Position(21, 3, 19),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(22, 3, 20),
+  ),
+  Grapheme(
+    "f",
+    False,
+    Position(23, 3, 21),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(24, 3, 22),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(25, 3, 23),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(26, 3, 24),
+  ),
+  Grapheme(
+    ".",
+    False,
+    Position(27, 3, 25),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(28, 3, 26),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(29, 4, 0),
+  ),
+  Grapheme(
+    "I",
+    False,
+    Position(30, 5, 0),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(31, 5, 1),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(32, 5, 2),
+  ),
+  Grapheme(
+    "d",
+    False,
+    Position(33, 5, 3),
+  ),
+  Grapheme(
+    "o",
+    False,
+    Position(34, 5, 4),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(35, 5, 5),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(36, 5, 6),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(37, 5, 7),
+  ),
+  Grapheme(
+    "'",
+    False,
+    Position(38, 5, 8),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(39, 5, 9),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(40, 5, 10),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(41, 5, 11),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(42, 5, 12),
+  ),
+  Grapheme(
+    "v",
+    False,
+    Position(43, 5, 13),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(44, 5, 14),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(45, 5, 15),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(46, 5, 16),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(47, 5, 17),
+  ),
+  Grapheme(
+    "y",
+    False,
+    Position(48, 5, 18),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(49, 5, 19),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(50, 5, 20),
+  ),
+  Grapheme(
+    "p",
+    False,
+    Position(51, 5, 21),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(52, 5, 22),
+  ),
+  Grapheme(
+    "c",
+    False,
+    Position(53, 5, 23),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(54, 5, 24),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(55, 5, 25),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(56, 5, 26),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(57, 5, 27),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(58, 5, 28),
+  ),
+  Grapheme(
+    "y",
+    False,
+    Position(59, 5, 29),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(60, 5, 30),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(61, 5, 31),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(62, 5, 32),
+  ),
+  Grapheme(
+    "x",
+    False,
+    Position(63, 5, 33),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(64, 5, 34),
+  ),
+  Grapheme(
+    "o",
+    False,
+    Position(65, 5, 35),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(66, 5, 36),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(67, 5, 37),
+  ),
+  Grapheme(
+    "f",
+    False,
+    Position(68, 5, 38),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(69, 5, 39),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(70, 5, 40),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(71, 5, 41),
+  ),
+  Grapheme(
+    "u",
+    False,
+    Position(72, 5, 42),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(73, 5, 43),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(74, 5, 44),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(75, 5, 45),
+  ),
+  Grapheme(
+    ",",
+    False,
+    Position(76, 5, 46),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(77, 5, 47),
+  ),
+  Grapheme(
+    "b",
+    False,
+    Position(78, 5, 48),
+  ),
+  Grapheme(
+    "u",
+    False,
+    Position(79, 5, 49),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(80, 5, 50),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(81, 5, 51),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(82, 5, 52),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(83, 5, 53),
+  ),
+  Grapheme(
+    "'",
+    False,
+    Position(84, 5, 54),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(85, 5, 55),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(86, 5, 56),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(87, 5, 57),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(88, 5, 58),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(89, 5, 59),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(90, 5, 60),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(91, 5, 61),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(92, 5, 62),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(93, 5, 63),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(94, 5, 64),
+  ),
+  Grapheme(
+    "v",
+    False,
+    Position(95, 5, 65),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(96, 5, 66),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(97, 5, 67),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(98, 5, 68),
+  ),
+  Grapheme(
+    "d",
+    False,
+    Position(99, 5, 69),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(100, 5, 70),
+  ),
+  Grapheme(
+    "B",
+    False,
+    Position(101, 5, 71),
+  ),
+  Grapheme(
+    "K",
+    False,
+    Position(102, 5, 72),
+  ),
+  Grapheme(
+    "M",
+    False,
+    Position(103, 5, 73),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(104, 5, 74),
+  ),
+  Grapheme(
+    "f",
+    False,
+    Position(105, 5, 75),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(106, 5, 76),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(107, 5, 77),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(108, 5, 78),
+  ),
+  Grapheme(
+    ".",
+    False,
+    Position(109, 5, 79),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(110, 5, 80),
+  ),
+  Grapheme(
+    "H",
+    False,
+    Position(111, 6, 0),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(112, 6, 1),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(113, 6, 2),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(114, 6, 3),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(115, 6, 4),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(116, 6, 5),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(117, 6, 6),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(118, 6, 7),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(119, 6, 8),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(120, 6, 9),
+  ),
+  Grapheme(
+    "o",
+    True,
+    Position(122, 6, 11),
+  ),
+  Grapheme(
+    "m",
+    False,
+    Position(123, 6, 12),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(124, 6, 13),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(125, 6, 14),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(126, 6, 15),
+  ),
+  Grapheme(
+    "s",
+    True,
+    Position(128, 6, 17),
+  ),
+  Grapheme(
+    "c",
+    False,
+    Position(129, 6, 18),
+  ),
+  Grapheme(
+    "a",
+    True,
+    Position(131, 6, 20),
+  ),
+  Grapheme(
+    "p",
+    False,
+    Position(132, 6, 21),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(133, 6, 22),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(134, 6, 23),
+  ),
+  Grapheme(
+    "c",
+    False,
+    Position(135, 6, 24),
+  ),
+  Grapheme(
+    "h",
+    True,
+    Position(137, 6, 26),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(138, 6, 27),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(139, 6, 28),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(140, 6, 29),
+  ),
+  Grapheme(
+    "c",
+    False,
+    Position(141, 6, 30),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(142, 6, 31),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(143, 6, 32),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(144, 6, 33),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(145, 6, 34),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(146, 6, 35),
+  ),
+  Grapheme(
+    "(",
+    False,
+    Position(147, 6, 36),
+  ),
+  Grapheme(
+    "\",
+    True,
+    Position(149, 6, 38),
+  ),
+  Grapheme(
+    ")",
+    False,
+    Position(150, 6, 39),
+  ),
+  Grapheme(
+    ".",
+    False,
+    Position(151, 6, 40),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(152, 6, 41),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(153, 7, 0),
+  ),
+  Grapheme(
+    "L",
+    False,
+    Position(154, 8, 0),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(155, 8, 1),
+  ),
+  Grapheme(
+    "k",
+    False,
+    Position(156, 8, 2),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(157, 8, 3),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(158, 8, 4),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(159, 8, 5),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(160, 8, 6),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(161, 8, 7),
+  ),
+  Grapheme(
+    "M",
+    False,
+    Position(162, 8, 8),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(163, 8, 9),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(164, 8, 10),
+  ),
+  Grapheme(
+    "k",
+    False,
+    Position(165, 8, 11),
+  ),
+  Grapheme(
+    "d",
+    False,
+    Position(166, 8, 12),
+  ),
+  Grapheme(
+    "o",
+    False,
+    Position(167, 8, 13),
+  ),
+  Grapheme(
+    "w",
+    False,
+    Position(168, 8, 14),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(169, 8, 15),
+  ),
+  Grapheme(
+    ",",
+    False,
+    Position(170, 8, 16),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(171, 8, 17),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(172, 8, 18),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(173, 8, 19),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(174, 8, 20),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(175, 8, 21),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(176, 8, 22),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(177, 8, 23),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(178, 8, 24),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(179, 8, 25),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(180, 8, 26),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(181, 8, 27),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(182, 8, 28),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(183, 8, 29),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(184, 8, 30),
+  ),
+  Grapheme(
+    "d",
+    False,
+    Position(185, 8, 31),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(186, 8, 32),
+  ),
+  Grapheme(
+    "f",
+    False,
+    Position(187, 8, 33),
+  ),
+  Grapheme(
+    "f",
+    False,
+    Position(188, 8, 34),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(189, 8, 35),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(190, 8, 36),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(191, 8, 37),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(192, 8, 38),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(193, 8, 39),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(194, 8, 40),
+  ),
+  Grapheme(
+    "p",
+    False,
+    Position(195, 8, 41),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(196, 8, 42),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(197, 8, 43),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(198, 8, 44),
+  ),
+  Grapheme(
+    "g",
+    False,
+    Position(199, 8, 45),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(200, 8, 46),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(201, 8, 47),
+  ),
+  Grapheme(
+    "p",
+    False,
+    Position(202, 8, 48),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(203, 8, 49),
+  ),
+  Grapheme(
+    ".",
+    False,
+    Position(204, 8, 50),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(205, 8, 51),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(206, 9, 0),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(207, 10, 0),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(208, 10, 1),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(209, 10, 2),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(210, 11, 0),
+  ),
+  Grapheme(
+    "T",
+    False,
+    Position(211, 12, 0),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(212, 12, 1),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(213, 12, 2),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(214, 12, 3),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(215, 12, 4),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(216, 12, 5),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(217, 12, 6),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(218, 12, 7),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(219, 12, 8),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(220, 12, 9),
+  ),
+  Grapheme(
+    "o",
+    False,
+    Position(221, 12, 10),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(222, 12, 11),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(223, 12, 12),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(224, 12, 13),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(225, 12, 14),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(226, 12, 15),
+  ),
+  Grapheme(
+    "p",
+    False,
+    Position(227, 12, 16),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(228, 12, 17),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(229, 12, 18),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(230, 12, 19),
+  ),
+  Grapheme(
+    "g",
+    False,
+    Position(231, 12, 20),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(232, 12, 21),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(233, 12, 22),
+  ),
+  Grapheme(
+    "p",
+    False,
+    Position(234, 12, 23),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(235, 12, 24),
+  ),
+  Grapheme(
+    ".",
+    False,
+    Position(236, 12, 25),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(237, 12, 26),
+  ),
+  Grapheme(
+    "E",
+    False,
+    Position(238, 13, 0),
+  ),
+  Grapheme(
+    "v",
+    False,
+    Position(239, 13, 1),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(240, 13, 2),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(241, 13, 3),
+  ),
+  Grapheme(
+    "y",
+    False,
+    Position(242, 13, 4),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(243, 13, 5),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(244, 13, 6),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(245, 13, 7),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(246, 13, 8),
+  ),
+  Grapheme(
+    "g",
+    False,
+    Position(247, 13, 9),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(248, 13, 10),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(249, 13, 11),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(250, 13, 12),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(251, 13, 13),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(252, 13, 14),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(253, 13, 15),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(254, 13, 16),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(255, 13, 17),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(256, 13, 18),
+  ),
+  Grapheme(
+    "p",
+    False,
+    Position(257, 13, 19),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(258, 13, 20),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(259, 13, 21),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(260, 13, 22),
+  ),
+  Grapheme(
+    "g",
+    False,
+    Position(261, 13, 23),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(262, 13, 24),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(263, 13, 25),
+  ),
+  Grapheme(
+    "p",
+    False,
+    Position(264, 13, 26),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(265, 13, 27),
+  ),
+  Grapheme(
+    ".",
+    False,
+    Position(266, 13, 28),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(267, 13, 29),
+  ),
+  Grapheme(
+    "I",
+    False,
+    Position(268, 14, 0),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(269, 14, 1),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(270, 14, 2),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(271, 14, 3),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(272, 14, 4),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(273, 14, 5),
+  ),
+  Grapheme(
+    "o",
+    False,
+    Position(274, 14, 6),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(275, 14, 7),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(276, 14, 8),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(277, 14, 9),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(278, 14, 10),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(279, 14, 11),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(280, 14, 12),
+  ),
+  Grapheme(
+    "o",
+    False,
+    Position(281, 14, 13),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(282, 14, 14),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(283, 14, 15),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(284, 14, 16),
+  ),
+  Grapheme(
+    "w",
+    False,
+    Position(285, 14, 17),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(286, 14, 18),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(287, 14, 19),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(288, 14, 20),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(289, 14, 21),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(290, 14, 22),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(291, 14, 23),
+  ),
+  Grapheme(
+    ".",
+    False,
+    Position(292, 14, 24),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(293, 14, 25),
+  ),
+  Grapheme(
+    "S",
+    False,
+    Position(294, 15, 0),
+  ),
+  Grapheme(
+    "o",
+    False,
+    Position(295, 15, 1),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(296, 15, 2),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(297, 15, 3),
+  ),
+  Grapheme(
+    "v",
+    False,
+    Position(298, 15, 4),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(299, 15, 5),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(300, 15, 6),
+  ),
+  Grapheme(
+    "y",
+    False,
+    Position(301, 15, 7),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(302, 15, 8),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(303, 15, 9),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(304, 15, 10),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(305, 15, 11),
+  ),
+  Grapheme(
+    "g",
+    False,
+    Position(306, 15, 12),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(307, 15, 13),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(308, 15, 14),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(309, 15, 15),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(310, 15, 16),
+  ),
+  Grapheme(
+    "o",
+    False,
+    Position(311, 15, 17),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(312, 15, 18),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(313, 15, 19),
+  ),
+  Grapheme(
+    "o",
+    False,
+    Position(314, 15, 20),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(315, 15, 21),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(316, 15, 22),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(317, 15, 23),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(318, 15, 24),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(319, 15, 25),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(320, 15, 26),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(321, 15, 27),
+  ),
+  Grapheme(
+    ".",
+    False,
+    Position(322, 15, 28),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(323, 15, 29),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(324, 16, 0),
+  ),
+  Grapheme(
+    "T",
+    False,
+    Position(325, 17, 0),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(326, 17, 1),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(327, 17, 2),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(328, 17, 3),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(329, 17, 4),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(330, 17, 5),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(331, 17, 6),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(332, 17, 7),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(333, 17, 8),
+  ),
+  Grapheme(
+    "p",
+    False,
+    Position(334, 17, 9),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(335, 17, 10),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(336, 17, 11),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(337, 17, 12),
+  ),
+  Grapheme(
+    "g",
+    False,
+    Position(338, 17, 13),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(339, 17, 14),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(340, 17, 15),
+  ),
+  Grapheme(
+    "p",
+    False,
+    Position(341, 17, 16),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(342, 17, 17),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(343, 17, 18),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(344, 17, 19),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(345, 17, 20),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(346, 17, 21),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(347, 17, 22),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(348, 17, 23),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(349, 17, 24),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(350, 17, 25),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(351, 17, 26),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(352, 17, 27),
+  ),
+  Grapheme(
+    "b",
+    False,
+    Position(353, 17, 28),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(354, 17, 29),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(355, 17, 30),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(356, 17, 31),
+  ),
+  Grapheme(
+    "k",
+    False,
+    Position(357, 17, 32),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(358, 17, 33),
+  ),
+  Grapheme(
+    ".",
+    False,
+    Position(359, 17, 34),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(360, 17, 35),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(361, 17, 36),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(362, 17, 37),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(363, 17, 38),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(364, 17, 39),
+  ),
+  Grapheme(
+    "T",
+    False,
+    Position(365, 18, 0),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(366, 18, 1),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(367, 18, 2),
+  ),
+  Grapheme(
+    "y",
+    False,
+    Position(368, 18, 3),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(369, 18, 4),
+  ),
+  Grapheme(
+    "c",
+    False,
+    Position(370, 18, 5),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(371, 18, 6),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(372, 18, 7),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(373, 18, 8),
+  ),
+  Grapheme(
+    "b",
+    False,
+    Position(374, 18, 9),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(375, 18, 10),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(376, 18, 11),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(377, 18, 12),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(378, 18, 13),
+  ),
+  Grapheme(
+    "c",
+    False,
+    Position(379, 18, 14),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(380, 18, 15),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(381, 18, 16),
+  ),
+  Grapheme(
+    "v",
+    False,
+    Position(382, 18, 17),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(383, 18, 18),
+  ),
+  Grapheme(
+    "d",
+    False,
+    Position(384, 18, 19),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(385, 18, 20),
+  ),
+  Grapheme(
+    "b",
+    False,
+    Position(386, 18, 21),
+  ),
+  Grapheme(
+    "y",
+    False,
+    Position(387, 18, 22),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(388, 18, 23),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(389, 18, 24),
+  ),
+  Grapheme(
+    "w",
+    False,
+    Position(390, 18, 25),
+  ),
+  Grapheme(
+    "o",
+    False,
+    Position(391, 18, 26),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(392, 18, 27),
+  ),
+  Grapheme(
+    "o",
+    False,
+    Position(393, 18, 28),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(394, 18, 29),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(395, 18, 30),
+  ),
+  Grapheme(
+    "m",
+    False,
+    Position(396, 18, 31),
+  ),
+  Grapheme(
+    "o",
+    False,
+    Position(397, 18, 32),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(398, 18, 33),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(399, 18, 34),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(400, 18, 35),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(401, 18, 36),
+  ),
+  Grapheme(
+    "p",
+    False,
+    Position(402, 18, 37),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(403, 18, 38),
+  ),
+  Grapheme(
+    "c",
+    False,
+    Position(404, 18, 39),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(405, 18, 40),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(406, 18, 41),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(407, 18, 42),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(408, 18, 43),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(409, 18, 44),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(410, 18, 45),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(411, 18, 46),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(412, 18, 47),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(413, 18, 48),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(414, 18, 49),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(415, 18, 50),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(416, 18, 51),
+  ),
+  Grapheme(
+    "d",
+    False,
+    Position(417, 18, 52),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(418, 18, 53),
+  ),
+  Grapheme(
+    "o",
+    False,
+    Position(419, 18, 54),
+  ),
+  Grapheme(
+    "f",
+    False,
+    Position(420, 18, 55),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(421, 18, 56),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(422, 18, 57),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(423, 18, 58),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(424, 18, 59),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(425, 18, 60),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(426, 18, 61),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(427, 18, 62),
+  ),
+  Grapheme(
+    ".",
+    False,
+    Position(428, 18, 63),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(429, 18, 64),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(430, 18, 65),
+  ),
+  Grapheme(
+    "
+",
+    False,
+    Position(431, 18, 66),
+  ),
+  Grapheme(
+    "S",
+    False,
+    Position(432, 19, 0),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(433, 19, 1),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(434, 19, 2),
+  ),
+  Grapheme(
+    "c",
+    False,
+    Position(435, 19, 3),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(436, 19, 4),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(437, 19, 5),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(438, 19, 6),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(439, 19, 7),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(440, 19, 8),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(441, 19, 9),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(442, 19, 10),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(443, 19, 11),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(444, 19, 12),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(445, 19, 13),
+  ),
+  Grapheme(
+    "w",
+    False,
+    Position(446, 19, 14),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(447, 19, 15),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(448, 19, 16),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(449, 19, 17),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(450, 19, 18),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(451, 19, 19),
+  ),
+  Grapheme(
+    "p",
+    False,
+    Position(452, 19, 20),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(453, 19, 21),
+  ),
+  Grapheme(
+    "c",
+    False,
+    Position(454, 19, 22),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(455, 19, 23),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(456, 19, 24),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(457, 19, 25),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(458, 19, 26),
+  ),
+  Grapheme(
+    "d",
+    False,
+    Position(459, 19, 27),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(460, 19, 28),
+  ),
+  Grapheme(
+    "w",
+    False,
+    Position(461, 19, 29),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(462, 19, 30),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(463, 19, 31),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(464, 19, 32),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(465, 19, 33),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(466, 19, 34),
+  ),
+  Grapheme(
+    "p",
+    False,
+    Position(467, 19, 35),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(468, 19, 36),
+  ),
+  Grapheme(
+    "c",
+    False,
+    Position(469, 19, 37),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(470, 19, 38),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(471, 19, 39),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(472, 19, 40),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(473, 19, 41),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(474, 19, 42),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(475, 19, 43),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(476, 19, 44),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(477, 19, 45),
+  ),
+  Grapheme(
+    "d",
+    False,
+    Position(478, 19, 46),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(479, 19, 47),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(480, 19, 48),
+  ),
+  Grapheme(
+    "d",
+    False,
+    Position(481, 19, 49),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(482, 19, 50),
+  ),
+  Grapheme(
+    "b",
+    False,
+    Position(483, 19, 51),
+  ),
+  Grapheme(
+    "y",
+    False,
+    Position(484, 19, 52),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(485, 19, 53),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(486, 19, 54),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(487, 19, 55),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(488, 19, 56),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(489, 19, 57),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(490, 19, 58),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(491, 19, 59),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(492, 19, 60),
+  ),
+  Grapheme(
+    "g",
+    False,
+    Position(493, 19, 61),
+  ),
+  Grapheme(
+    "u",
+    False,
+    Position(494, 19, 62),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(495, 19, 63),
+  ),
+  Grapheme(
+    "g",
+    False,
+    Position(496, 19, 64),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(497, 19, 65),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(498, 19, 66),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(499, 19, 67),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(500, 19, 68),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(501, 19, 69),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(502, 19, 70),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(503, 19, 71),
+  ),
+  Grapheme(
+    "f",
+    False,
+    Position(504, 19, 72),
+  ),
+  Grapheme(
+    ",",
+    False,
+    Position(505, 19, 73),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(506, 19, 74),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(507, 19, 75),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(508, 19, 76),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(509, 19, 77),
+  ),
+  Grapheme(
+    "d",
+    False,
+    Position(510, 19, 78),
+  ),
+  Grapheme(
+    "o",
+    False,
+    Position(511, 19, 79),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(512, 19, 80),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(513, 19, 81),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(514, 19, 82),
+  ),
+  Grapheme(
+    "'",
+    False,
+    Position(515, 19, 83),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(516, 19, 84),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(517, 19, 85),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(518, 19, 86),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(519, 19, 87),
+  ),
+  Grapheme(
+    "v",
+    False,
+    Position(520, 19, 88),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(521, 19, 89),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(522, 19, 90),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(523, 19, 91),
+  ),
+  Grapheme(
+    "o",
+    False,
+    Position(524, 19, 92),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(525, 19, 93),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(526, 19, 94),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(527, 19, 95),
+  ),
+  Grapheme(
+    "c",
+    False,
+    Position(528, 19, 96),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(529, 19, 97),
+  ),
+  Grapheme(
+    "u",
+    False,
+    Position(530, 19, 98),
+  ),
+  Grapheme(
+    "d",
+    False,
+    Position(531, 19, 99),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(532, 19, 100),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(533, 19, 101),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(534, 19, 102),
+  ),
+  Grapheme(
+    "h",
+    False,
+    Position(535, 19, 103),
+  ),
+  Grapheme(
+    "e",
+    False,
+    Position(536, 19, 104),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(537, 19, 105),
+  ),
+  Grapheme(
+    "s",
+    False,
+    Position(538, 19, 106),
+  ),
+  Grapheme(
+    "t",
+    False,
+    Position(539, 19, 107),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(540, 19, 108),
+  ),
+  Grapheme(
+    "n",
+    False,
+    Position(541, 19, 109),
+  ),
+  Grapheme(
+    "d",
+    False,
+    Position(542, 19, 110),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(543, 19, 111),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(544, 19, 112),
+  ),
+  Grapheme(
+    "d",
+    False,
+    Position(545, 19, 113),
+  ),
+  Grapheme(
+    " ",
+    False,
+    Position(546, 19, 114),
+  ),
+  Grapheme(
+    "l",
+    False,
+    Position(547, 19, 115),
+  ),
+  Grapheme(
+    "i",
+    False,
+    Position(548, 19, 116),
+  ),
+  Grapheme(
+    "b",
+    False,
+    Position(549, 19, 117),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(550, 19, 118),
+  ),
+  Grapheme(
+    "a",
+    False,
+    Position(551, 19, 119),
+  ),
+  Grapheme(
+    "r",
+    False,
+    Position(552, 19, 120),
+  ),
+  Grapheme(
+    "y",
+    False,
+    Position(553, 19, 121),
+  ),
+  Grapheme(
+    ".",
+    False,
+    Position(554, 19, 122),
+  ),
+]
