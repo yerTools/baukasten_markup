@@ -6,6 +6,10 @@ pub type Position {
   Position(line: Int, index: Int)
 }
 
+pub type Span {
+  Span(start: Int, end: Int)
+}
+
 pub type LineProperties {
   EmptyLine
   LineWithTrailingWhitespace
@@ -17,14 +21,15 @@ pub type Line {
 }
 
 pub type Text {
-  Text(graphemes: List(String), is_escaped: Bool, offset: Int)
+  Text(graphemes: List(String), is_escaped: Bool, index: Span, offset: Span)
 }
 
 fn text_from_grapheme(grapheme: Grapheme) -> Text {
   Text(
     graphemes: [grapheme.grapheme],
     is_escaped: grapheme.is_escaped,
-    offset: grapheme.position.offset,
+    index: Span(grapheme.position.index, grapheme.position.index),
+    offset: Span(grapheme.position.offset, grapheme.position.offset),
   )
 }
 
@@ -65,6 +70,14 @@ pub fn to_lines(graphemes: List(Grapheme)) -> List(Line) {
                       Text(
                         ..current,
                         graphemes: [grapheme.grapheme, ..current.graphemes],
+                        offset: Span(
+                          ..current.offset,
+                          end: grapheme.position.offset,
+                        ),
+                        index: Span(
+                          ..current.offset,
+                          end: grapheme.position.index,
+                        ),
                       ),
                       ..rest
                     ],
