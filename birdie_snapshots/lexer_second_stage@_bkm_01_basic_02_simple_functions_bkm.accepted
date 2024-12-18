@@ -791,11 +791,11 @@ title: lexer-second_stage@./bkm/01_basic/02_simple_functions.bkm
   Line(
     [
       Text(
-        ["#", "e", "n", "d", "
+        ["e", "n", "d", "
 "],
         False,
-        Span(0, 606),
-        Span(0, 4),
+        Span(0, 605),
+        Span(0, 3),
       ),
     ],
     TextLine,
@@ -807,12 +807,12 @@ title: lexer-second_stage@./bkm/01_basic/02_simple_functions.bkm
         ["
 "],
         False,
-        Span(607, 607),
+        Span(606, 606),
         Span(0, 0),
       ),
     ],
     EmptyLine,
-    Position(13, 607),
+    Position(13, 606),
   ),
   Line(
     [
@@ -829,12 +829,12 @@ title: lexer-second_stage@./bkm/01_basic/02_simple_functions.bkm
 ",
         ],
         False,
-        Span(0, 615),
+        Span(0, 614),
         Span(0, 7),
       ),
     ],
     TextLine,
-    Position(14, 608),
+    Position(14, 607),
   ),
   Line(
     [
@@ -870,25 +870,25 @@ title: lexer-second_stage@./bkm/01_basic/02_simple_functions.bkm
 ",
         ],
         False,
-        Span(0, 642),
+        Span(0, 641),
         Span(0, 26),
       ),
     ],
     TextLine,
-    Position(15, 616),
+    Position(15, 615),
   ),
   Line(
     [
       Text(
-        ["#", "e", "n", "d", "
+        ["e", "n", "d", "
 "],
         False,
-        Span(0, 647),
-        Span(0, 4),
+        Span(0, 645),
+        Span(0, 3),
       ),
     ],
     TextLine,
-    Position(16, 643),
+    Position(16, 642),
   ),
   Line(
     [
@@ -896,12 +896,12 @@ title: lexer-second_stage@./bkm/01_basic/02_simple_functions.bkm
         ["
 "],
         False,
-        Span(648, 648),
+        Span(646, 646),
         Span(0, 0),
       ),
     ],
     EmptyLine,
-    Position(17, 648),
+    Position(17, 646),
   ),
   Line(
     [
@@ -976,12 +976,12 @@ title: lexer-second_stage@./bkm/01_basic/02_simple_functions.bkm
 ",
         ],
         False,
-        Span(0, 714),
+        Span(0, 712),
         Span(0, 65),
       ),
     ],
     TextLine,
-    Position(18, 649),
+    Position(18, 647),
   ),
   Line(
     [
@@ -1046,12 +1046,12 @@ title: lexer-second_stage@./bkm/01_basic/02_simple_functions.bkm
 ",
         ],
         False,
-        Span(0, 770),
+        Span(0, 768),
         Span(0, 55),
       ),
     ],
     TextLine,
-    Position(19, 715),
+    Position(19, 713),
   ),
   Line(
     [
@@ -1083,7 +1083,6 @@ title: lexer-second_stage@./bkm/01_basic/02_simple_functions.bkm
           "a",
           "n",
           " ",
-          "#",
           "e",
           "n",
           "d",
@@ -1092,12 +1091,12 @@ title: lexer-second_stage@./bkm/01_basic/02_simple_functions.bkm
 ",
         ],
         False,
-        Span(0, 802),
-        Span(0, 31),
+        Span(0, 799),
+        Span(0, 30),
       ),
     ],
     TextLine,
-    Position(20, 771),
+    Position(20, 769),
   ),
   Line(
     [
@@ -1209,12 +1208,12 @@ title: lexer-second_stage@./bkm/01_basic/02_simple_functions.bkm
 ",
         ],
         False,
-        Span(0, 905),
+        Span(0, 902),
         Span(0, 102),
       ),
     ],
     TextLine,
-    Position(21, 803),
+    Position(21, 800),
   ),
   Line(
     [
@@ -1222,12 +1221,12 @@ title: lexer-second_stage@./bkm/01_basic/02_simple_functions.bkm
         ["
 "],
         False,
-        Span(906, 906),
+        Span(903, 903),
         Span(0, 0),
       ),
     ],
     EmptyLine,
-    Position(22, 906),
+    Position(22, 903),
   ),
   Line(
     [
@@ -1269,11 +1268,11 @@ title: lexer-second_stage@./bkm/01_basic/02_simple_functions.bkm
           ")",
         ],
         False,
-        Span(0, 940),
+        Span(0, 937),
         Span(0, 33),
       ),
     ],
     TextLine,
-    Position(23, 907),
+    Position(23, 904),
   ),
 ]

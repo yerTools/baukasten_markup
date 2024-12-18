@@ -9,15 +9,15 @@ The function \#BKM will work in the same way.
 
 #fn Hello
     `<strong>Hello</strong>`
-#end
+end
 
 #fn BKM
     `<strong>BKM</strong>`
-#end
+end
 
 A function can be defined with a #fn followed by a function name.
 After this the function body starts the following line.
-The function ends with an #end.
+The function ends with an end.
 Those keywords with a number sign (#) prefix have to be at the start of a line without any whitespace.
 
 So: #Hello and welcome to #BKM! :)
