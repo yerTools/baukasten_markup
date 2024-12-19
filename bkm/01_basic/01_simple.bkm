@@ -18,3 +18,13 @@ The last paragraph has line breaks.
 They can be archived by two or more spaces at the end of a line.  
 Since this is whitespace and whitespace is handled by the language itself, it doesn't have to include the standard library.
 
+
+
+If you put an escape character (\\) at the end of an line\
+you also can get a line break without any trailing whitespace like this: \
+But if you want to use some trailing whitespace you can also do it.   \
+Since unescaped whitespace is reduced    you   can   add    as   much    as    you like    to.
+
+   
+    
+

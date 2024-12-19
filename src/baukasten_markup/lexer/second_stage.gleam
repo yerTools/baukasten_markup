@@ -133,7 +133,7 @@ pub fn to_lines(graphemes: List(Grapheme)) -> List(Line) {
     let line = case line.properties {
       TextLine ->
         case line.text {
-          [text, ..] if !text.is_escaped -> {
+          [text, ..] if !text.is_escaped ->
             case text.graphemes {
               ["\n", a, b, ..]
                 if a == " " && b == " " || a == "\t" || b == "\t"
@@ -142,7 +142,13 @@ pub fn to_lines(graphemes: List(Grapheme)) -> List(Line) {
                 Line(..line, properties: LineWithTrailingWhitespace)
               _ -> line
             }
-          }
+
+          [text, ..] if text.is_escaped ->
+            case text.graphemes {
+              ["\n", ..] -> Line(..line, properties: LineWithTrailingWhitespace)
+              _ -> line
+            }
+
           _ -> line
         }
       _ -> line
