@@ -494,6 +494,55 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
     [
       Text(
         [
+          " ",
+          " ",
+          " ",
+          " ",
+          "L",
+          "e",
+          "a",
+          "d",
+          "i",
+          "n",
+          "g",
+          " ",
+          "w",
+          "h",
+          "i",
+          "t",
+          "e",
+          "s",
+          "p",
+          "a",
+          "c",
+          "e",
+          " ",
+          "i",
+          "s",
+          " ",
+          "i",
+          "g",
+          "n",
+          "o",
+          "r",
+          "e",
+          "d",
+          ".",
+          "
+",
+        ],
+        False,
+        Span(0, 328),
+        Span(0, 34),
+      ),
+    ],
+    TextLine,
+    Position(15, 294),
+  ),
+  Line(
+    [
+      Text(
+        [
           "S",
           "o",
           " ",
@@ -527,12 +576,12 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
 ",
         ],
         False,
-        Span(0, 323),
+        Span(0, 358),
         Span(0, 29),
       ),
     ],
     TextLine,
-    Position(15, 294),
+    Position(16, 329),
   ),
   Line(
     [
@@ -540,12 +589,12 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
         ["
 "],
         False,
-        Span(324, 324),
+        Span(359, 359),
         Span(0, 0),
       ),
     ],
     EmptyLine,
-    Position(16, 324),
+    Position(17, 359),
   ),
   Line(
     [
@@ -553,12 +602,8 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
         [
           "T",
           "h",
-          "e",
-          " ",
-          "l",
-          "a",
+          "i",
           "s",
-          "t",
           " ",
           "p",
           "a",
@@ -594,12 +639,12 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
 ",
         ],
         False,
-        Span(0, 364),
-        Span(0, 39),
+        Span(0, 395),
+        Span(0, 35),
       ),
     ],
     LineWithTrailingWhitespace,
-    Position(17, 325),
+    Position(18, 360),
   ),
   Line(
     [
@@ -675,12 +720,12 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
 ",
         ],
         False,
-        Span(0, 431),
+        Span(0, 462),
         Span(0, 66),
       ),
     ],
     LineWithTrailingWhitespace,
-    Position(18, 365),
+    Position(19, 396),
   ),
   Line(
     [
@@ -813,12 +858,12 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
 ",
         ],
         False,
-        Span(0, 555),
+        Span(0, 586),
         Span(0, 123),
       ),
     ],
     TextLine,
-    Position(19, 432),
+    Position(20, 463),
   ),
   Line(
     [
@@ -826,12 +871,12 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
         ["
 "],
         False,
-        Span(556, 556),
+        Span(587, 587),
         Span(0, 0),
       ),
     ],
     EmptyLine,
-    Position(20, 556),
+    Position(21, 587),
   ),
   Line(
     [
@@ -839,12 +884,12 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
         ["
 "],
         False,
-        Span(557, 557),
+        Span(588, 588),
         Span(0, 0),
       ),
     ],
     EmptyLine,
-    Position(21, 557),
+    Position(22, 588),
   ),
   Line(
     [
@@ -852,12 +897,12 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
         ["
 "],
         False,
-        Span(558, 558),
+        Span(589, 589),
         Span(0, 0),
       ),
     ],
     EmptyLine,
-    Position(22, 558),
+    Position(23, 589),
   ),
   Line(
     [
@@ -897,13 +942,13 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
           "(",
         ],
         False,
-        Span(0, 590),
+        Span(0, 621),
         Span(0, 31),
       ),
       Text(
         ["\"],
         True,
-        Span(591, 592),
+        Span(622, 623),
         Span(32, 33),
       ),
       Text(
@@ -933,19 +978,19 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
           "e",
         ],
         False,
-        Span(34, 615),
+        Span(34, 646),
         Span(34, 56),
       ),
       Text(
         ["
 "],
         True,
-        Span(616, 617),
+        Span(647, 648),
         Span(57, 58),
       ),
     ],
     LineWithTrailingWhitespace,
-    Position(23, 559),
+    Position(24, 590),
   ),
   Line(
     [
@@ -1026,19 +1071,19 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
           " ",
         ],
         False,
-        Span(0, 690),
+        Span(0, 721),
         Span(0, 72),
       ),
       Text(
         ["
 "],
         True,
-        Span(691, 692),
+        Span(722, 723),
         Span(73, 74),
       ),
     ],
     LineWithTrailingWhitespace,
-    Position(24, 618),
+    Position(25, 649),
   ),
   Line(
     [
@@ -1116,19 +1161,19 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
           " ",
         ],
         False,
-        Span(0, 762),
+        Span(0, 793),
         Span(0, 69),
       ),
       Text(
         ["
 "],
         True,
-        Span(763, 764),
+        Span(794, 795),
         Span(70, 71),
       ),
     ],
     LineWithTrailingWhitespace,
-    Position(25, 693),
+    Position(26, 724),
   ),
   Line(
     [
@@ -1230,11 +1275,11 @@ title: lexer-second_stage@./bkm/01_basic/01_simple.bkm
           ".",
         ],
         False,
-        Span(0, 858),
+        Span(0, 889),
         Span(0, 93),
       ),
     ],
     TextLine,
-    Position(26, 765),
+    Position(27, 796),
   ),
 ]

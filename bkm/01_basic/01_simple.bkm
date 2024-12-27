@@ -12,9 +12,10 @@ Like in Markdown, this is in a different paragraph.
 This is another paragraph.
 Everything is in a paragraph.
 It also has no new lines.
+    Leading whitespace is ignored.
 So everything is on one line.
 
-The last paragraph has line breaks.    
+This paragraph has line breaks.    
 They can be archived by two or more spaces at the end of a line.  
 Since this is whitespace and whitespace is handled by the language itself, it doesn't have to include the standard library.
 
