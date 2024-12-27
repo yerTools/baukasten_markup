@@ -1,0 +1,72 @@
+In the last file we took a look at simple functions. 
+Now we will look at functions with arguments.
+The function is called \#Example and it takes three arguments.
+It only prints Example in <strong></strong> tags and ignores the provided arguments.
+
+#fn Example(arg1, arg2, arg3)
+    `<strong>Example</strong>`
+end
+
+It can be called like this:  
+- \#Example(1, 2, 3)  
+- \#Example(1, 2)(3)  
+- \#Example(1)(2, 3)  
+- \#Example(1)(2)(3)  
+
+Everything inside round parentheses ( and ) is interpreted as code.
+If you want to use BKM markup as an argument you can use square brackets [ and ].
+Everything inside square brackets is interpreted as markup.
+
+This means the example can be called like this:  
+- \#Example(1, 2)[3]  
+- \#Example[1](2, 3)  
+- \#Example[1](2)[3]  
+- \#Example[1][2](3)  
+- ... and so on  
+
+Since everything inside square brackets is interpreted as markup, you can't put multiple arguments in square brackets
+since a comma would be interpreted as markup and not as a separator.
+You can put multiple paragraphs in square brackets and also call functions inside those arguments.
+
+For example:  
+- \#Example(1)[  
+    \#Example(1, 2)[3]  
+  ](3)  
+
+
+After this paragraph there will be some unescaped calls to the \#Example function.  
+This will result in many instances of the word Example in <strong></strong> tags.
+
+Example(1, 2, 3)
+Example(1)(2, 3)
+Example(1)(2)(3)
+Example(1, 2)(3)
+
+Example(1, 2)[3]
+Example[1](2, 3)
+Example[1](2)[3]
+Example[1][2](3)
+
+Example(1)[
+    Example(1, 2)[3]
+](3)
+Example(1)(2)[
+    This text won't be printed since arguments are ignored.  
+    But the lexer, the parser and tests will still have to deal with this.
+
+    Now we can call this function inside this argument:  
+    Example(1, 2)[
+        We can also call it a third time:  
+        Example[1][2][3]
+    ]
+]
+Example(
+    1,
+    2,
+    3,
+)
+Example(
+    1
+)(2)(3
+)
+Example(Example(1, 2)[3], 2, 3)
