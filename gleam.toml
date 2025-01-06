@@ -1,6 +1,6 @@
 name = "baukasten_markup"
 version = "1.0.0"
-gleam = ">= 1.6.3"
+gleam = ">= 1.7.0"
 
 # Fill out these fields if you intend to generate HTML documentation or publish
 # your project to the Hex package manager.
