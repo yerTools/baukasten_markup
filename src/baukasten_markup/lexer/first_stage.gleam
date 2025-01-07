@@ -3,17 +3,10 @@
 /// for the second stage lexer.
 /// It splits the input into graphemes, handles escaping and 
 /// normalizes whitespace and new lines. 
+import baukasten_markup/lexer/model.{type Grapheme, Grapheme, Position}
 import gleam/list
 import gleam/regexp
 import gleam/string
-
-pub type Position {
-  Position(index: Int, line: Int, offset: Int)
-}
-
-pub type Grapheme {
-  Grapheme(grapheme: String, is_escaped: Bool, position: Position)
-}
 
 pub fn is_whitespace(grapheme: Grapheme) -> Bool {
   case grapheme.is_escaped, grapheme.grapheme {
